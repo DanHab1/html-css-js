@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="coffOrder.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Open+Sans:wght@300;400&family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header">
+            <div class="logo">
+                <a href="project_coffee_page.html" class="logo">coffee house</a>
+            </div>
+            <div class="menu">
+            </div>
+        </div>
+        <div class="container">
+            <div class="content">
+                <div class="user__data">
+                    <input id="surname" type="text" name="surname" 
+                    placeholder="Фамилия">
+                    <input id="name" type="text" name="name"
+                    placeholder="Имя">
+                </div>
+                <div class="products">
+                    <div class="column">
+                    <div class="data">
+                        <input type="checkbox" id="food1">
+                        <label for="food1">Эспрессо 80р.</label>
+                        <input type="text" id="food1_cnt" value="0" data-price="80">
+                    </div>
+                    <div class="data">
+                        <input type="checkbox" id="food2" name="food">
+                        <label for="food2">Американо 110р.</label>
+                        <input type="text" id="food2_cnt" value="0" data-price="110">
+                    </div>
+                    <div class="data">
+                        <input type="checkbox" id="food3" name="food">
+                        <label for="food3">Латте 120р.</label>
+                        <input type="text" id="food3_cnt" value="0" data-price="120">
+                    </div>
+                    <div class="data">
+                        <input type="checkbox" id="food4" name="food">
+                        <label for="food4">Капучино 90р.</label>
+                        <input type="text" id="food4_cnt" value="0" data-price="90">
+                    </div>
+                    </div>
+                    <div class="column">
+                    <div class="data">
+                        <input type="checkbox" id="food5" name="food">
+                        <label for="food5">Шоколадный кекс 80р.</label>
+                        <input type="text" id="food5_cnt" value="0" data-price="80">
+                    </div>
+                    <div class="data">
+                        <input type="checkbox" id="food6" name="food">
+                        <label for="food6">Черничный кекс 90р.</label>
+                        <input type="text" id="food6_cnt" value="0" data-price="90">
+                    </div>
+                    <div class="data">
+                        <input type="checkbox" id="food7" name="food">
+                        <label for="food7">Яблочный торт 100р.</label>
+                        <input type="text" id="food7_cnt" value="0" data-price="100">
+                    </div>
+                    </div>
+                </div>
+                <p class="result">Всего: 0 руб.</p>
+                <button class="btn">Оформить заказ</button>
+            </div>
+        </div>
+    </header>
+</body>
+<script src="order.js"></script>
+</html>
